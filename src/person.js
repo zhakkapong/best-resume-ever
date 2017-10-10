@@ -1,88 +1,97 @@
 /* eslint-disable */
 export const PERSON = {
   name: {
-    first: 'John',
+    first: 'Zhakkapong',
     middle: '',
-    last: 'Doe',
+    last: 'Ponngam',
   },
-  about: 'Hi, my name is John Doe. I\'m just about the most boring type of person you could possibly imagine. I like collecting leaves from the tree in my back yard and documenting each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.',
-  position: 'Software Developer',
+  about: `Hi, my name is Zhakkapong Ponngam.
+I'm was work in web technology, game, linux, mobile, backend, realtime comunication and server infrastructure.`,
+  position: 'DevOps / Software Developer',
   birth: {
-    year: 1990,
-    location: 'New York'
+    year: 1986,
+    location: 'Phuket, Thailand'
   },
   experience: [{
-      company: 'Company A',
-      position: 'Developer',
-      timeperiod: 'since January 2016',
-      description: 'Programming and watching cute cat videos.'
+      company: 'Voice TV',
+      position: 'Software Engineering',
+      timeperiod: 'Since October 2015',
+      description: 'Software development, plan and coding. work with lastest technology ex. NodeJS Firebase NoSQL VueJS ReactJS etc.'
     },
     {
-      company: 'Company B',
-      position: 'Frontend Developer',
-      timeperiod: 'January 2015 - December 2015',
-      description: 'Fulfillment of extremely important tasks.'
-    },
-    {
-      company: 'Company C',
-      position: 'Trainee',
-      timeperiod: 'March 2014 - December 2014',
-      description: 'Making coffee and baking cookies.'
+      company: 'Coworker / Freelace',
+      position: 'Programmer / Devops',
+      timeperiod: 'Since 2006',
+      description: 'Coworker with Liffolab, 3Force, DOS. Develop web game mobile and backend system'
     }
   ],
-  education: [{
-      degree: 'Master of Arts',
-      timeperiod: 'March 2012 - December 2013',
-      description: 'Major in Hacking and Computer Penetration, University A, New York, USA.'
-    },
-    {
-      degree: 'Bachelor of Science',
-      timeperiod: 'March 2009 - December 2011',
-      description: 'Major in Engineering, University B, Los Angeles, USA.'
-    }
-  ],
+  education: [],
   // skill level goes 0 to 100
   skills: [{
       name: 'HTML5',
-      level: '99'
+      level: '90'
     },
     {
-      name: 'CSS3',
-      level: '95'
-    },
-    {
-      name: 'JavaScript',
-      level: '97'
-    },
-    {
-      name: 'Node.js',
-      level: '93'
-    },
-    {
-      name: 'Angular 2',
-      level: '60'
-    },
-    {
-      name: 'TypeScript',
+      name: 'CSS3 / Stylus / SASS / SCSS',
       level: '80'
     },
     {
-      name: 'ES.Next',
+      name: 'JavaScript / TypeScript',
+      level: '80'
+    },
+    {
+      name: 'Node.js',
+      level: '90'
+    },
+    {
+      name: 'VueJS / Angular',
+      level: '80'
+    },
+    {
+      name: 'Firebase / Google API',
+      level: '80'
+    },
+    {
+      name: 'PHP',
+      level: '80'
+    },
+    {
+      name: 'Jquery',
+      level: '80'
+    },
+    {
+      name: 'Debian / Ubuntu / CentOS',
+      level: '80'
+    },
+    {
+      name: 'Symfony / Codeigniter',
+      level: '50'
+    },
+    {
+      name: 'Webpack / Gulp / Grunt',
       level: '70'
     },
     {
-      name: 'Docker',
-      level: '99'
-    }
+      name: 'Yii1-2',
+      level: '80'
+    },
+    {
+      name: 'Mongodb / Mysql',
+      level: '60'
+    },
+    {
+      name: 'GraphQL',
+      level: '60'
+    },
   ],
   skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
   contact: {
-    email: 'john.doe@email.com',
-    phone: '0123 456789',
-    street: '1234 Broadway',
-    city: 'New York',
-    website: 'johndoe.com',
-    github: 'johnyD'
+    email: 'zhakkapong@gmail.com',
+    phone: '66858811817',
+    city: 'Phuket',
+    street: 'Thep Krasattri Road, Thalang',
+    website: 'zhakkapong.github.io',
+    github: 'zhakkapong'
   },
-  lang: 'en' // en, de, fr, pt, cn, it, es, th, pt-br, ru, sv, id, hu
+  lang: 'en' // en, de, fr, pt, cn, it, es, th
 };

@@ -98,22 +98,19 @@
       <div>{{person.position}}</div>
     </div>
 
+    <div class="block about">
+      <div class="block-helper"></div>
+        <div class="headline">{{ lang.headings.about }}</div>
+      <p class="info" v-html="person.about.replace(/(?:\r\n|\r|\n)/g, '<br />')"></p>
+    </div>
+
     <div class="section-headline">{{ lang.headings.experience }}</div>
     <div class="block" v-for="experience in person.experience">
       <div class="block-helper"></div>
-      <div class="headline">{{experience.position}} - {{experience.company}}</h3>
-        <div class="subheadline">{{experience.timeperiod}}</div>
-        <p class="info">
-          {{experience.description}}
-        </p>
-      </div>
-    </div>
-    <div class="section-headline">{{ lang.headings.education }}</div>
-    <div class="block" v-for="education in person.education">
-      <div class="block-helper"></div>
-      <div class="headline">{{education.degree}}</div>
+      <div class="headline">{{experience.position}} - {{experience.company}}</div>
+      <div class="subheadline">{{experience.timeperiod}}</div>
       <p class="info">
-        {{education.timeperiod}}, {{education.description}}
+        {{experience.description}}
       </p>
     </div>
   </div>
@@ -165,6 +162,7 @@ a {
     margin-top:0;
     letter-spacing:10px;
     font-weight:400;
+    margin-bottom: 0;
   }
   div {
     margin-top:-5px;
@@ -188,7 +186,11 @@ a {
     padding-top:0;
     text-transform:uppercase;
     opacity:0.8;
+    margin-top: 0;
   }
+}
+.about {
+  margin-top: 40px !important;
 }
 .section-headline {
   text-transform:uppercase;
@@ -440,7 +442,7 @@ h4 {
   }
 }
 #myselfpic {
-  background-image:url('../assets/person.jpg');
+  background-image:url('../assets/me.jpg');
   color:black;
 }
 #githubIcon {
