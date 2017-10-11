@@ -113,6 +113,16 @@
         {{experience.description}}
       </p>
     </div>
+
+    <div class="section-headline">{{ lang.headings.projects }}</div>
+    <div class="block" v-for="project in person.projects">
+      <div class="block-helper"></div>
+      <div class="headline">{{project.name}}</div>
+      <div class="subheadline">{{project.timeperiod}}</div>
+      <p class="info">
+        {{project.description}}
+      </p>
+    </div>
   </div>
 
   <div style="clear:both;"></div>
@@ -339,11 +349,12 @@ h4 {
   height:100%;
   float:left;
   padding:0;
+  padding-bottom: 20px;
   text-align:left;
   color:#ffffff;
   color:rgba(255,255,255,0.59);
   background-color:#16151c;
-  overflow:hidden;
+  // overflow:hidden;
   display:block;
   .section-headline {
     color:rgba(255,255,255,0.54);
@@ -416,7 +427,7 @@ h4 {
           background-color:rgba(255,255,255,0.19);
           border-radius:2px;
           margin:0.5rem 0 1rem;
-          overflow:visible;
+          // overflow:visible;
           margin-bottom:10px;
           .determinate {
             background-color:#78909c;
@@ -442,7 +453,7 @@ h4 {
   }
 }
 #myselfpic {
-  background-image:url('../assets/me.jpg');
+  background-image:url('../assets/person.jpg');
   color:black;
 }
 #githubIcon {

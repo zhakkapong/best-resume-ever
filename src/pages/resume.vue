@@ -11,16 +11,16 @@
 <script>
 import Vue from 'vue';
 // import * as chromeShadowFixer from 'chrome-shadow-fixer';
-import * as chromeShadowFixer from './chromeShadowFixer';
+// import * as chromeShadowFixer from './chromeShadowFixer';
 import '../resumes/resumes';
 export default Vue.component('resume', {
   name: 'app',
   mounted: () => {
-    const els = chromeShadowFixer.fix();
-    if (
-      els &&
-      els.length > 0
-    ) window.onhashchange = () => { location.reload(); };
+    // const els = chromeShadowFixer.fix();
+    // if (
+    //   els &&
+    //   els.length > 0
+    // ) window.onhashchange = () => { location.reload(); };
   }
 });
 </script>
@@ -31,7 +31,7 @@ export default Vue.component('resume', {
   width: 100%;
 }
 .page-wrapper {
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   background: #CCCCCC;
   margin: 0;
   padding: 0;
@@ -48,9 +48,9 @@ export default Vue.component('resume', {
   background: white;
   position: relative;
   width: 21cm;
-  height: 29.68cm;
+  /*height: 29.68cm;*/
   display: block;
   page-break-after: auto;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 </style>

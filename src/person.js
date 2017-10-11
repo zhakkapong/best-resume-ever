@@ -83,8 +83,11 @@ I'm was work in web technology, game, linux, mobile, backend, realtime comunicat
       name: 'GraphQL',
       level: '60'
     },
+    {
+      name: 'Google Cloud / AWS',
+      level: '70'
+    },
   ],
-  skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
   contact: {
     email: 'zhakkapong@gmail.com',
     phone: '66858811817',
@@ -93,5 +96,30 @@ I'm was work in web technology, game, linux, mobile, backend, realtime comunicat
     website: 'zhakkapong.github.io',
     github: 'zhakkapong'
   },
-  lang: 'en' // en, de, fr, pt, cn, it, es, th
+  skillDescription: '',
+  lang: 'en', // en, de, fr, pt, cn, it, es, th
+  projects: [
+    {
+      name: 'Online ticket',
+      timeperiod: 'December 2016 - May 2017',
+      description: `Infrastructure design, coding and management. This system designed to support large number of concurrent.
+      User make transition 300-1000 times in minutes.
+      We chosed Firebase (Google Cloud) for delivery data and realtime database. Redit for quere system (for 3rd party ex. email or SMS)`
+    },
+    {
+      name: 'Multiple player game',
+      timeperiod: '2014 - 2015',
+      description: 'Backend developer of service designed to enhance comunication. Provides data in realtime. Created with Socket.io (NodeJS) / Debuzz framework (Lua)'
+    },
+    {
+      name: 'Voice TV',
+      timeperiod: '2016 - 2017',
+      description: 'Backend developer designed to enhance performance. Transform to cloud. Investigate problem and fix (Phalcon, Google Cloud)'
+    },
+    {
+      name: 'Infrastructure design / implement',
+      timeperiod: '2015 - 2017',
+      description: 'Design infrastructure and implement to AWS / Google Cloud. Setup continuous integration (CI) for developer'
+    }
+  ]
 };
